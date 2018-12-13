@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ndbx formatVersion="21" type="file" uuid="4f90e3cd-7200-4efa-9f61-7d19310837cc">
-    <property name="canvasHeight" value="1000"/>
-    <property name="canvasWidth" value="1000"/>
+    <property name="canvasHeight" value="10000"/>
+    <property name="canvasWidth" value="5000"/>
     <property name="canvasX" value="0"/>
     <property name="canvasY" value="0"/>
     <node name="root" prototype="core.network" renderedChild="translate1">
@@ -43,7 +43,7 @@
             <port name="value2" type="float" value="17.0"/>
         </node>
         <node name="multiply3" position="10.00,3.00" prototype="math.multiply">
-            <port name="value2" type="float" value="6.0"/>
+            <port name="value2" type="float" value="4.0"/>
         </node>
         <node name="negate1" position="17.00,9.00" prototype="math.negate"/>
         <node name="range1" position="9.00,5.00" prototype="math.range"/>
